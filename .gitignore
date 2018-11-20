@@ -10,3 +10,14 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Docker files
+Dockerfile
+Dockerfile.backup
+
+# Make file
+Makefile
+
+# IDE folders
+.idea/
+

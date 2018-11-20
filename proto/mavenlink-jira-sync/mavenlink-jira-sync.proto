@@ -1,0 +1,12 @@
+syntax = 'proto3';
+message EnvironmentConfiguration {
+    bool   debug  = 1;
+    string master = 2;
+    bool   strict = 3;
+}
+message EquivalenceTypes {
+    bool issueType = 1;
+    bool status = 2;
+    bool priority = 3;
+}
+
