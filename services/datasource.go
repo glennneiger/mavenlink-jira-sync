@@ -2,10 +2,10 @@ package services
 
 import (
 	"fmt"
-	jiraCommunicator "git.costrategix.net/go/jira-communicator/proto/jira-communicator"
-	datasource "git.costrategix.net/go/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
-	"git.costrategix.net/go/mavenlink-jira-sync/functions"
-	"git.costrategix.net/go/mavenlink-jira-sync/utility"
+	jiraCommunicator "github.com/desertjinn/jira-communicator/proto/jira-communicator"
+	datasource "github.com/desertjinn/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
+	"github.com/desertjinn/mavenlink-jira-sync/functions"
+	"github.com/desertjinn/mavenlink-jira-sync/utility"
 	"github.com/pkg/errors"
 	"strconv"
 	"time"

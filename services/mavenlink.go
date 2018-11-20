@@ -2,8 +2,8 @@ package services
 
 import (
 	"fmt"
-	communicator "git.costrategix.net/go/mavenlink-communicator/proto/mavenlink-communicator"
-	"git.costrategix.net/go/mavenlink-jira-sync/utility"
+	communicator "github.com/desertjinn/mavenlink-communicator/proto/mavenlink-communicator"
+	"github.com/desertjinn/mavenlink-jira-sync/utility"
 	"strings"
 )
 

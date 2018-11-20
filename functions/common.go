@@ -2,9 +2,9 @@ package functions
 
 import (
 	"fmt"
-	jiraCommunicator "git.costrategix.net/go/jira-communicator/proto/jira-communicator"
-	synchronizer "git.costrategix.net/go/mavenlink-jira-sync/proto/mavenlink-jira-sync"
-	"git.costrategix.net/go/mavenlink-jira-sync/utility"
+	jiraCommunicator "github.com/desertjinn/jira-communicator/proto/jira-communicator"
+	synchronizer "github.com/desertjinn/mavenlink-jira-sync/proto/mavenlink-jira-sync"
+	"github.com/desertjinn/mavenlink-jira-sync/utility"
 	"strconv"
 	"strings"
 	"time"

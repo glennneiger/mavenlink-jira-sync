@@ -1,8 +1,8 @@
 package POGO
 
 import (
-	jira "git.costrategix.net/go/jira-communicator/proto/jira-communicator"
-	mavenlink "git.costrategix.net/go/mavenlink-communicator/proto/mavenlink-communicator"
+	jira "github.com/desertjinn/jira-communicator/proto/jira-communicator"
+	mavenlink "github.com/desertjinn/mavenlink-communicator/proto/mavenlink-communicator"
 )
 
 type IssueAndTaskInterface interface {

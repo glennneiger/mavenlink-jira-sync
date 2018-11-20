@@ -2,11 +2,11 @@ package functions
 
 import (
 	"fmt"
-	jiraCommunicator "git.costrategix.net/go/jira-communicator/proto/jira-communicator"
-	mavenlinkCommunicator "git.costrategix.net/go/mavenlink-communicator/proto/mavenlink-communicator"
-	datasourceCommunicator "git.costrategix.net/go/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
-	"git.costrategix.net/go/mavenlink-jira-sync/POGO"
-	"git.costrategix.net/go/mavenlink-jira-sync/utility"
+	jiraCommunicator "github.com/desertjinn/jira-communicator/proto/jira-communicator"
+	mavenlinkCommunicator "github.com/desertjinn/mavenlink-communicator/proto/mavenlink-communicator"
+	datasourceCommunicator "github.com/desertjinn/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
+	"github.com/desertjinn/mavenlink-jira-sync/POGO"
+	"github.com/desertjinn/mavenlink-jira-sync/utility"
 	"strconv"
 	"strings"
 )

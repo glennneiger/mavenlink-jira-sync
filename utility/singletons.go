@@ -5,9 +5,9 @@
 package utility
 
 import (
-	jiraCommunicator "git.costrategix.net/go/jira-communicator/proto/jira-communicator"
-	mavenlinkCommunicator "git.costrategix.net/go/mavenlink-communicator/proto/mavenlink-communicator"
-	mavenlinkJiraDatasource "git.costrategix.net/go/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
+	jiraCommunicator "github.com/desertjinn/jira-communicator/proto/jira-communicator"
+	mavenlinkCommunicator "github.com/desertjinn/mavenlink-communicator/proto/mavenlink-communicator"
+	mavenlinkJiraDatasource "github.com/desertjinn/mavenlink-jira-datasource/proto/mavenlink-jira-datasource"
 	microclient "github.com/micro/go-micro/client"
 	"golang.org/x/net/context"
 	"sync"

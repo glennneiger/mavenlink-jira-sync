@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"git.costrategix.net/go/mavenlink-jira-sync/functions"
-	synchronizer "git.costrategix.net/go/mavenlink-jira-sync/proto/mavenlink-jira-sync"
-	"git.costrategix.net/go/mavenlink-jira-sync/services"
-	"git.costrategix.net/go/mavenlink-jira-sync/utility"
+	"github.com/desertjinn/mavenlink-jira-sync/functions"
+	synchronizer "github.com/desertjinn/mavenlink-jira-sync/proto/mavenlink-jira-sync"
+	"github.com/desertjinn/mavenlink-jira-sync/services"
+	"github.com/desertjinn/mavenlink-jira-sync/utility"
 	"github.com/kelseyhightower/envconfig"
 	"github.com/micro/go-micro/cmd"
 	"sync"
